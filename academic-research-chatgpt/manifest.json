@@ -1,0 +1,42 @@
+{
+  "name": "academic-research-chatgpt",
+  "adapter_version": "1.1.0",
+  "adapted_on": "2026-11-12",
+  "kind": "independent-chatgpt-skill-adaptation",
+  "license": "CC-BY-NC-4.0",
+  "copyright": "Copyright (c) 2026 Cheng-I Wu (upstream material)",
+  "runtime": "native tools available in the current ChatGPT session",
+  "entrypoint": "SKILL.md",
+  "references": [
+    "research.md",
+    "writing.md",
+    "review-revision.md",
+    "evidence.md",
+    "screening-experiments.md",
+    "pipeline.md",
+    "provenance.md",
+    "usage.md"
+  ],
+  "source_repositories": [
+    {
+      "name": "academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "version": "3.24.2",
+      "commit": "fd5ff1b858374219b4d342e38587b66e18f61cbd"
+    },
+    {
+      "name": "academic-research-skills-codex",
+      "url": "https://github.com/Imbad0202/academic-research-skills-codex",
+      "version": "3.24.2",
+      "commit": "82725acb393c4410ac6f47634a7f51b40a162fa4"
+    },
+    {
+      "name": "experiment-agent",
+      "url": "https://github.com/Imbad0202/experiment-agent",
+      "commit": "e291e7dc7ca268b2de7e1a9cf23bc2eef5dc0651"
+    }
+  ],
+  "upstream_runtime_scripts_bundled": false,
+  "auto_update": false,
+  "external_api_keys_required": false
+}

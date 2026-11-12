@@ -1,0 +1,13 @@
+interface:
+  display_name: Academic Research · ChatGPT
+  short_description: 梳理研究方向与近年文献，支持论文写作、审稿修订、引用核验和实验分析
+  default_prompt: 使用 $academic-research-chatgpt，根据我提供的论文材料和任务完成研究、写作、审稿或修订。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
